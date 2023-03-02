@@ -229,6 +229,7 @@ body.active { overflow: hidden; }
 
 .section-subtitle {
   position: relative;
+  
   color: var(--color-secondary);
   text-transform: uppercase;
   padding-bottom: 5px;
@@ -240,7 +241,7 @@ body.active { overflow: hidden; }
   position: absolute;
   top: 100%;
   left: 0;
-  width: 60px;
+  width: 70px;
   height: 2px;
   background: var(--color-secondary);
 }
@@ -251,9 +252,11 @@ body.active { overflow: hidden; }
 }
 
 .section-text {
+  text-align: justify;
+  font-size: 18px;
   color: var(--color-secondary);
-  line-height: 1.8;
-  margin-bottom: 30px;
+  line-height: 1.5;
+  margin-bottom: 15px;
 }
 
 .tooltip {
